@@ -22,6 +22,6 @@
     "require": {
         "php": "^8.0",
         "tulparbot/extension-container": "dev-master",
-        "isaeken/tulpar-bot": "^1.4"
+        "isaeken/tulpar-bot": "*"
     }
 }
