@@ -1,0 +1,27 @@
+{
+    "name": "tulparbot/extension-hello",
+    "description": "Hello Extension for Tulpar Bot",
+    "version": "v1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isa Eken",
+            "email": "hello@isaeken.com.tr",
+            "homepage": "https://www.isaeken.com.tr",
+            "role": "Founder"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Tulpar\\Extension\\Hello\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "tulparbot/extension-container": "dev-master",
+        "isaeken/tulpar-bot": "^1.4"
+    }
+}

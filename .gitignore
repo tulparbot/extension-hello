@@ -1,0 +1,7 @@
+/.idea
+/.vscode
+/node_modules
+/vendor
+/.vagrant
+composer.lock
+package-lock.json
